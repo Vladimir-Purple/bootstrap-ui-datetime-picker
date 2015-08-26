@@ -3,4 +3,3 @@ node_modules
 .plugin
 .metadata/*
 *.iml
-dist/
