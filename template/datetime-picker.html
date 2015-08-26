@@ -7,6 +7,7 @@
             <button ng-if="showPicker == 'date' && hideToday !== 'true'" type="button" class="btn btn-sm btn-info" ng-click="select('today')" ng-disabled="isTodayDisabled()">{{ getText('today') }}</button>
             <button ng-if="showPicker == 'time' && hideNow !== 'true'" type="button" class="btn btn-sm btn-info" ng-click="select('now')" ng-disabled="isTodayDisabled()">{{ getText('now') }}</button>
             <button ng-if="hideClear !== 'true'" type="button" class="btn btn-sm btn-danger" ng-click="select(null)">{{ getText('clear') }}</button>
+            <button ng-if="customButtonText.length > 0" type="button" class="btn btn-sm {{ customButtonClass || 'btn-info'}}" ng-click="customButtonAction()">{{ customButtonText }}</button>
         </span>
         <span class="btn-group pull-right">
             <button ng-if="showPicker == 'date' && enableTime" type="button" class="btn btn-sm btn-default" ng-click="changePicker($event, 'time')">{{ getText('time')}}</button>

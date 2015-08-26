@@ -31,7 +31,10 @@
                     clearText: '@',
                     hideClear: '@',
                     closeText: '@',
-                    dateDisabled: '&'
+                    dateDisabled: '&',
+                    customButtonText: '@?',
+                    customButtonClass: '@?',
+                    customButtonAction: '&?'
                 },
                 link: function (scope, element, attrs, ngModel) {
                     var dateFormat = uiDatetimePickerConfig.dateFormat, currentDate,
