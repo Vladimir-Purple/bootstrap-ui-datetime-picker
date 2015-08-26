@@ -23,10 +23,13 @@
                     enableDate: '=?',
                     enableTime: '=?',
                     todayText: '@',
+                    hideToday: '@',
                     nowText: '@',
+                    hideNow: '@?',
                     dateText: '@',
                     timeText: '@',
                     clearText: '@',
+                    hideClear: '@',
                     closeText: '@',
                     dateDisabled: '&'
                 },
